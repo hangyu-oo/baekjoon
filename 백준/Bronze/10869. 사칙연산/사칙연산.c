@@ -1,18 +1,12 @@
-#pragma warning(disable:4996)
-#include <stdio.h>
+#pragma warning(disable:4996) 
 #define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 
-int main(void) {
-	int a;
-	int b;
+int main() {
+	int A, B;
 
-	scanf("%d", &a);
-	scanf("%d", &b);
-
-	printf("%d\n", a+b);
-	printf("%d\n", a-b);
-	printf("%d\n", a * b);
-	printf("%d\n", a / b);
-	printf("%d\n", a % b);
+	scanf("%d %d", &A, & B);
+	printf("%d\n%d\n%d\n%d\n%d\n", A + B, A - B, A * B, A/B, A % B);
+	return 0;
 }
